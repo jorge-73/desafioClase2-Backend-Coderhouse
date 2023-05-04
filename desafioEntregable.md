@@ -3,8 +3,11 @@ La clase ProductManager está diseñada para administrar una lista de productos.
 
 ## Métodos:
 #validateProducts: valida que todos los campos de un producto sean obligatorios y que el campo "code" sea único.
+
 getProductsById: busca un producto en la lista por su ID y lo devuelve si lo encuentra, o "Not Found" en caso contrario.
+
 addProduct: agrega un nuevo producto a la lista, generando una Id única para él y validando sus campos antes de hacerlo.
+
 getProducts: devuelve la lista completa de productos.
 
 ## Campos:
